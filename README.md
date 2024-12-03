@@ -144,7 +144,7 @@ Converts the SVG file to a high-resolution PDF for better viewing and sharing.
 ````
 convert -density 150 ~/lab06-$MYGIT/pyruvate-dehydrogenase-complex/pyruvate-dehydrogenase-complex.homologsf.al.mid.treefile.rec.svg ~/lab06-$MYGIT/pyruvate-dehydrogenase-complex/pyruvate-dehydrogenase-complex.homologsf.al.mid.treefile.rec.pdf
 ````
-#Protein Domain Prediction
+# Protein Domain Prediction
 Removes asterisks (*), representing stop codons, from the input sequence file. The modified file is saved in the Lab 8 directory.
 ````
 sed 's/*//' ~/lab04-$MYGIT/pyruvate-dehydrogenase-complex/pyruvate-dehydrogenase-complex.homologs.fas > ~/lab08-$MYGIT/pyruvate-dehydrogenase-complex/pyruvate-dehydrogenase-complex.homologs.fas
